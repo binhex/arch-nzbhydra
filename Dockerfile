@@ -1,4 +1,4 @@
-FROM binhex/arch-openvpn
+FROM binhex/arch-base:2017102500
 MAINTAINER binhex
 
 # additional files
