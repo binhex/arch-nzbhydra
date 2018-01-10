@@ -15,7 +15,6 @@ Latest stable NZBHydra release from Arch User Repository (AUR).
 docker run -d \
     -p 5075:5075 \
     --name=<container name> \
-    -v <path for media files>:/media \
     -v <path for data files>:/data \
     -v <path for config files>:/config \
     -v /etc/localtime:/etc/localtime:ro \
@@ -36,7 +35,6 @@ Please replace all user variables in the above command defined by <> with the co
 docker run -d \
     -p 5075:5075 \
     --name=nzbhydra \
-    -v /media/tv:/media \
     -v /apps/docker/sabnzbd/watched:/data \
     -v /apps/docker/nzbhydra:/config \
     -v /etc/localtime:/etc/localtime:ro \
