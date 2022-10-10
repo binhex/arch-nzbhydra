@@ -38,7 +38,7 @@ fi
 ####
 
 # define pacman packages
-pacman_packages="python2 python2-lxml"
+pacman_packages="python python-lxml"
 
 # install compiled packages using pacman
 if [[ ! -z "${pacman_packages}" ]]; then
